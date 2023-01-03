@@ -87,3 +87,39 @@ Syntax:Image
 ![An image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxhQd3NOK8rKIZ86ekfzeL2z_iSDHgZLWwqg&usqp=CAU)
 <br/>
 <br/>
+
+
+Syntax: SQL Code block
+` ```sql\n SELECT * FROM EMPLOYEES WHERE name = 'Bhargavi'\n``` `
+<br/>
+<br/>
+```sql
+SELECT * FROM EMPLOYEES
+WHERE name = 'Bhargavi';
+```
+<br/>
+<br/>
+
+Syntax: For Creating a table
+```
+|column1|column2|
+|:---:|:---:|                :--: center alignment,  :--- left alignment,  ---: right alignment
+|row 1a|row1b|
+```
+|column1|column2|
+|:---:|:---:|
+|row 1a|row1b|
+
+<br/>
+<br/>
+
+Syntax: For efficiently showing difference in added corrections
+<br/>
+` ```diff\n - int data = [];\n + int data = {};\n``` `
+
+```diff
+- int data = [];
++ int data = {};
+```
+<br/>
+<br/>
